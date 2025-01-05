@@ -2207,6 +2207,28 @@
 			)
 		)
 	)
+	(global_label "gnd_2"
+		(shape input)
+		(at 176.53 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "869b292d-53e8-4172-9c27-6662f210e160")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.9207 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "gnd_1"
 		(shape input)
 		(at 176.53 81.28 180)
@@ -2291,6 +2313,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd_1"
+		(shape input)
+		(at 176.53 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee33e6e6-b6e1-4516-bad7-c8d29f59a0e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.9207 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3666,6 +3710,76 @@
 			(project "cap-bank-transfo"
 				(path "/08838421-4371-4c5b-b465-42e5d2dded23"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 181.61 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8a46fb5-6f3b-4ac0-b6e5-01603e1e62ce")
+		(property "Reference" "J4"
+			(at 184.15 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 184.15 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f4f7275-85d6-4786-93f7-3d566fe77d88")
+		)
+		(pin "2"
+			(uuid "b7cb7922-1ee0-4e3d-a34d-2699890977ec")
+		)
+		(instances
+			(project "cap-bank-transfo"
+				(path "/08838421-4371-4c5b-b465-42e5d2dded23"
+					(reference "J4")
 					(unit 1)
 				)
 			)
